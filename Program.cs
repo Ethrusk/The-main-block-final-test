@@ -19,5 +19,6 @@
         Console.WriteLine("Результат:");
         foreach (string str in resultArray)
         {
-            Console.WriteLine(str);
+            Console.Write(str);
+            Console.Write(", ");
         }
